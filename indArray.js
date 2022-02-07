@@ -1,7 +1,13 @@
-var random = [2, 3, 1, 4, 6, 5]; 
+const random = [2, 3, 1, 4, 6, 5]; 
 
-var numMaior = Math.max(...random)
-var numMenor = Math.min(...random)
+const numMaior = Math.max(...random)
+const numMenor = Math.min(...random)
 
-console.log( random.indexOf(numMaior) );
-console.log( random.indexOf(numMenor) );
+const indNumMaior = random.indexOf(numMaior);
+const indNumMenor = random.indexOf(numMenor);
+
+//console.log(indNumMaior)
+//console.log(indNumMenor)
+
+
+module.exports = {indNumMaior, indNumMenor}

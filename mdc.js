@@ -1,8 +1,17 @@
-var a =12 , b = 18 ;
-while(b != 0){
+const mdc = (a,b) =>{
+
+    while(b != 0){
     resto = a % b
     a = b 
     b = resto
+
+    
+    }
+    return a
+    console.log(a)
 }
 
-console.log(a)
+
+
+
+module.exports = {mdc}
